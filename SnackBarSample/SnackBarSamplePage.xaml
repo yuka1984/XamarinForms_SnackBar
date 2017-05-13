@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:SnackBarSample" x:Class="SnackBarSample.SnackBarSamplePage">
+    <ContentPage.Padding>
+    0, 20, 0, 0
+  </ContentPage.Padding>
+    <StackLayout>
+        <Button Text="Snack" x:Name="SnackButton" />
+        <Label x:Name="SnackLabel" />
+    </StackLayout>
+	
+</ContentPage>
